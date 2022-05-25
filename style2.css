@@ -186,6 +186,35 @@ main .shop :hover .new{
     height: 1500px;
 }
 }
+@media screen and (max-width: 413px){
+    .filter .po_chan_a .po_chan{
+        height: 30px;
+        width: 80px;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+    .filter .po_sale_a .po_sale{
+        height: 30px;
+        width: 70px;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+    .filter .po_chan_a{
+        margin-right: 0px;
+    }
+    .filter .po_sale_a{
+        margin-left: 0px;
+    }
+    .po_sale_a:hover .po_sale{
+        height: 210px;   
+    }
+    .po_fil_a:hover .po_fil{
+        height: 210px;   
+    }
+    .po_chan_a:hover .po_chan{
+        height: 210px;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1025px){
     .filter p{
         font-size: 25px;
