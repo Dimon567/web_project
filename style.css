@@ -300,6 +300,36 @@ footer img:hover{
         margin-top: 0px;
         width: 50%; 
     }
+    @media screen and (max-width: 400px){ 
+        main .glav_img{
+            height: 240px;
+            
+        }
+        header .Poisc{
+            height: 30px;
+            width: 35%;
+        }
+        header .Poisc input{
+            width: 63%;
+            height: 20px;
+            margin: 4px;
+            margin-left: 6%;
+            font-size:16px;
+        
+        }
+        .shop{
+            margin-left: 4.5%;
+            margin-right: 4.5%;
+            width: 91%;
+        }
+        .box_icon{
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 0px;
+            width: 60%; 
+        }
+
+    }
     @media screen and (min-width: 768px) and (max-width: 1025px){  
         main .glav_img{
             background-position-x: left;
